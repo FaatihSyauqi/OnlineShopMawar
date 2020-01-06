@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//route login
+Route::get('/login','OlmawarController@login');
+
